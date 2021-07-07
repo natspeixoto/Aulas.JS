@@ -1,0 +1,17 @@
+/* Levantar ou suspender algo, Ocorre nas declarações de 
+variáveis e funções 
+*/
+
+function fn (){
+    function log(value) {
+        console.log(value);
+    }
+    
+    log =('hoisting de funçãoo')
+    
+}
+
+fn();
+    
+
+/* Sempre declarar a função antes de usá-la*/
